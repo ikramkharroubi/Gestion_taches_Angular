@@ -1,0 +1,134 @@
+# Dependencies
+/task-manager-frontend/node_modules
+/task-manager-backend/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/task-manager-frontend/coverage
+/task-manager-frontend/test-results
+/task-manager-frontend/cypress/videos
+/task-manager-frontend/cypress/screenshots
+
+# Production
+/task-manager-frontend/dist
+/task-manager-frontend/tmp
+/task-manager-frontend/out-tsc
+/task-manager-frontend/bazel-out
+
+# Backend build
+/task-manager-backend/dist
+/task-manager-backend/build
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Misc
+/task-manager-frontend/.sass-cache
+/task-manager-frontend/connect.lock
+/task-manager-frontend/coverage
+/task-manager-frontend/libpeerconnection.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment files
+/task-manager-frontend/.env
+/task-manager-frontend/.env.local
+/task-manager-frontend/.env.development.local
+/task-manager-frontend/.env.test.local
+/task-manager-frontend/.env.production.local
+
+/task-manager-backend/.env
+/task-manager-backend/.env.local
+/task-manager-backend/.env.development.local
+/task-manager-backend/.env.test.local
+/task-manager-backend/.env.production.local
+
+# Angular specific
+/task-manager-frontend/.angular/cache
+/task-manager-frontend/.angular/dist
+/task-manager-frontend/.angular/compiler
+/task-manager-frontend/.angular/ngcc
+/task-manager-frontend/.angular/package-lock.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Backend specific
+/task-manager-backend/logs
+/task-manager-backend/uploads
+/task-manager-backend/temp
